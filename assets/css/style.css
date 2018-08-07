@@ -1,12 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 /*--------------------------------------------------------------Common Styling*/
 
-.uppercase {
-    text-transform: uppercase;
+html,
+body {
+    margin: 0;
 }
 
-.center {
-    text-align: center;
+.divider{
+   width: 50px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: #E8900C;
+    margin-left: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.divider-long{
+    width:100px;
+    margin:0 auto;
 }
 
 /*------------------------------------------------------------------Navigation*/
@@ -40,6 +52,7 @@
 }
 
 .dropdown-menu>li>a,
+
 .navbar-default .navbar-nav .open .dropdown-menu>li>a {
     color: #fff;
 }
@@ -76,6 +89,63 @@
 
 /*}*/
 
+/*---------------------------------------------------------------------Alert*/
+
+.alert-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.alert {
+    padding: 10px 5px;
+    margin: 0px;
+    border: none;
+    border-radius: 0px;
+}
+
+
+/*---------------------------------------------------------------------Bio*/
+.bio{
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.bio-img {
+    background: url(/assets/images/bio-img.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    height: 200px;
+    margin: 20px 0;
+    position: relative;
+}
+
+.bio-p {
+    padding: 15px;
+    text-align: left;
+    letter-spacing: 0.8px;
+    line-height: 1.5;
+}
+
+.bio-h1 {
+    color: #545454;
+    padding: 5px;
+    margin: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: exo;
+    font-weight: 600;
+    word-spacing: 4px;
+    font-size: 28px;
+}
+
+
 /*---------------------------------------------------------------------Events*/
 
 h2 {
@@ -86,16 +156,26 @@ h2 {
     font-family: Roboto, sans-serif;
 }
 
-h1 {
+.events {
+    margin-bottom: 40px;
+}
+
+.events-heading {
+    color: #545454;
+    padding: 5px;
+    letter-spacing: 1px;
     text-align: center;
-    font-family: Roboto, sans-serif;
+    font-family: exo;
+    font-weight: 600;
+    word-spacing: 4px;
+    font-size: 28px;
 }
 
 .box {
     background-color: #3f9cc2;
-    width: 90%;
+    width: 100%;
     height: 200px;
-    margin: 20px auto;
+    margin: 20px 0;
     position: relative;
     display: flex;
     align-items: center;
@@ -103,29 +183,67 @@ h1 {
     flex-direction: column;
 }
 
-.box-heading {
-    font-size: 30px;
+.box-heading,
+.location {
+    font-size: 28px;
     letter-spacing: 3px;
     font-family: Exo, sans-serif;
     font-weight: 600;
-    color:#fafafa;
-}
-
-.city{
-    font-size: 25px;
-    color: #0f2c38;
-    font-weight: 400;
-    font-family: Roboto,sans-serif;
-}
-
-.location{
-    font-family: roboto;
-    font-size: 20px;
-    color: #0f2c38;
-}
-
-.time{
-    font-size: 20px;
-    font-family: roboto;
     color: #fafafa;
+}
+
+.city-container {
+    width: 100%;
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.city {
+    font-size: 25px;
+    color: #26647d;
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+}
+
+.location {
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+
+/*---------------------------------------------------------------------Footer*/
+
+.footer-style {
+    background-color: #545454;
+    color: #fafafa;
+}
+
+.footer-heading {
+    font-family: Exo, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/*---------------------------------------------------------------Media Queries*/
+
+@media(min-width:768px) {
+    .bio-img {
+        background: url(/assets/images/bio-img.jpg);
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        width: 100%;
+        min-height: 260px;
+        margin: 20px 0;
+        position: relative;
+    }
+}
+
+@media(min-width:768px) {
+    .bio-h1 {
+        text-align: left;
+    }
 }
