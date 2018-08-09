@@ -12,9 +12,10 @@
 </head>
 
 <body>
-
-
-	<!---------------------------------------------------------Navigation Bar-->
+	<!-----------------------------------------------------------Header & Nav-->
+	<header class="container-fluid banner">
+		<div class="opaque-overlay">&nbsp;</div>
+		</div>
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -48,92 +49,101 @@
 			</div>
 		</div>
 	</nav>
-	<!-----------------------------------------------------------Header&Alert-->
-	<header class="container-fluid banner">
-		<div class="opaque-overlay">&nbsp;</div>
+	</header>
 
-		<div class="container-fluid alert-container">
+	<!------------------------------------------------------------------Alert-->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="container-fluid alert-container ">
 
-			<div class="alert alert-warning text-center">
-				<span class="alert-callout"> Organising an Event? </span> We would be delighted to perform at your special occasion.
-				<a class="btn btn-gen btn-callout" href=""> Get in touch for more details </a>
+					<div class="alert alert-warning text-center">
+						<span class="alert-callout"> Organising an Event? </span>
+						<p>We would be delighted to perform at your special occasion.</p>
+						<a class="btn btn-gen btn-callout" href=""> Get in touch for more details </a>
+					</div>
+				</div>
 			</div>
 		</div>
+	</div>
+	
+	<!--------------------------------------------------------------Container-->
+	<div class="container-lg">
+		<!----------------------------------------------------------Short Bio-->
+		<section class="container-fluid">
+			<div class="row bio">
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+					<div class="row">
+						<h1 class="bio-h1 text-uppercase">Bio</h1>
+					</div>
+					<hr class="divider-small">
 
-		</div>
-	</header>
-	<!--------------------------------------------------------------Short Bio-->
-	<section class="container-fluid">
-		<div class="row bio">
-			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-				<div class="row">
-					<h1 class="bio-h1 text-uppercase">Bio</h1>
-				</div>
-				<hr class="divider-small">
-				
-					
-						<p class="bio-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid consequatur veritatis libero iure impedit eaque facere soluta maxime tenetur saepe autem explicabo sint molestias cumque, magni minus nihil doloribus ducimus repellendus dolore aperiam
-							debitis cupiditate. Fuga dolores ducimus, eos, earum reiciendis, sunt deleniti at vel saepe ipsum, facilis deserunt voluptates?</p>
-					
-				
-				<button class= "btn btn-success btn-gen">
+
+					<p class="bio-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid consequatur veritatis libero iure impedit eaque facere soluta maxime tenetur saepe autem explicabo sint molestias cumque, magni minus nihil doloribus ducimus repellendus dolore aperiam
+						debitis cupiditate. Fuga dolores ducimus, eos, earum reiciendis, sunt deleniti at vel saepe ipsum, facilis deserunt voluptates?</p>
+
+
+					<button class="btn btn-success btn-gen">
 					<a href="/">Read More</a>
 				</button>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-				<div class="bio-img"></div>
-			</div>
-		</div>
-	</section>
-	<!--------------------------------------------------------Upcoming Events-->
-	<section class="container-fluid">
-		<div class="row">
-			<h1 class="events-heading text-uppercase">Upcoming Events</h1>
-		</div>
-		<hr class="divider divider-long" />
-		<div class="row events">
-			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-				<div class="box">
-					<h3 class="box-heading">12/09/18</h3>
-					<div class="city-container">
-						<h4 class="city"><i class="fa fa-map-marker"></i> New York City </h4>
-					</div>
-					<p class="location">Central park</p>
-					<!--<p class="time">19:00</p>-->
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+					<div class="bio-img"></div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-				<div class="box">
-					<h3 class="box-heading">30/09/18</h3>
-					<div class="city-container">
-						<h4 class="city"><i class="fa fa-map-marker"></i> Frankfurt </h4>
+		</section>
+		<!----------------------------------------------------Upcoming Events-->
+		<section class="container-fluid">
+			<div class="row">
+				<h1 class="events-heading text-uppercase">Upcoming Events</h1>
+			</div>
+			<hr class="divider divider-long" />
+			<div class="row events">
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<div class="box">
+						<h3 class="box-heading">12/09/18</h3>
+						<div class="city-container">
+							<h4 class="city"><i class="fa fa-map-marker"></i> New York City </h4>
+						</div>
+						<p class="location">Central park</p>
+						<!--<p class="time">19:00</p>-->
 					</div>
-					<p class="location">Rock Straisse</p>
-					<!--<p class="time">21:00</p>-->
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<div class="box">
+						<h3 class="box-heading">30/09/18</h3>
+						<div class="city-container">
+							<h4 class="city"><i class="fa fa-map-marker"></i> Frankfurt </h4>
+						</div>
+						<p class="location">Rock Straisse</p>
+						<!--<p class="time">21:00</p>-->
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<div class="box">
+						<h3 class="box-heading">05/10/18</h3>
+						<div class="city-container">
+							<h4 class="city"><i class="fa fa-map-marker"></i> Paris </h4>
+						</div>
+						<p class="location">Rue de la Musique</p>
+						<!--<p class="time">17:00</p>-->
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					<div class="box">
+						<h3 class="box-heading">11/12/18</h3>
+						<div class="city-container">
+							<h4 class="city"><i class="fa fa-map-marker"></i> Edinburgh </h4>
+						</div>
+						<p class="location">Black Horse Inn</p>
+						<!--<p class="time">20:30</p>-->
+					</div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-				<div class="box">
-					<h3 class="box-heading">05/10/18</h3>
-					<div class="city-container">
-						<h4 class="city"><i class="fa fa-map-marker"></i> Paris </h4>
-					</div>
-					<p class="location">Rue de la Musique</p>
-					<!--<p class="time">17:00</p>-->
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-				<div class="box">
-					<h3 class="box-heading">11/12/18</h3>
-					<div class="city-container">
-						<h4 class="city"><i class="fa fa-map-marker"></i> Edinburgh </h4>
-					</div>
-					<p class="location">Black Horse Inn</p>
-					<!--<p class="time">20:30</p>-->
-				</div>
-			</div>
-		</div>
-	</section>
+		</section>
+
+	</div>
+	
 	<!-----------------------------------------------------------------Footer-->
 	<footer class="container-fluid footer-style">
 		<div class="row">
@@ -143,6 +153,16 @@
 				<p>
 					We have been rocking since 1960s.
 				</p>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 footer-sub">
+				<h5 class="footer-heading">Get in touch</h5>
+				<hr class="divider">
+				<ul>
+					<li>Band Records: +555 1234567</li>
+					<li>Email: theband@info.com</li>
+					<li>Bookings: +555 4785621</li>
+					<li>Drop Us a Note Here <a href="/"><p class="note-icon glyphicon glyphicon-pencil"></p></strong></a></li>
+				</ul>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 footer-sub">
 				<h5 class="footer-heading">Navigate</h5>
@@ -165,16 +185,6 @@
 
 				</ul>
 
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 footer-sub">
-				<h5 class="footer-heading">Get in touch</h5>
-				<hr class="divider divider-footer">
-				<ul>
-					<li>Band Records: +555 1234567</li>
-					<li>Email: theband@info.com</li>
-					<li>Bookings: +555 4785621</li>
-					<li>Drop Us a Note Here <a href="/"><span class="note-icon glyphicon glyphicon-pencil"></strong></a></li>
-				</ul>
 			</div>
 		</div>
 	</footer>
