@@ -17,6 +17,18 @@ body {
     margin: 0;
 }
 
+.box {
+    background-color: rgba(143, 143, 143, 0.2);
+    width: 100%;
+    height: 200px;
+    margin: 20px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
 .divider-small {
     width: 50px;
     height: 4px;
@@ -36,7 +48,7 @@ body {
 
 .btn-gen {
     background-color: #FC860D;
-    color:#fafafa;
+    color: #fafafa;
     border: transparent;
     border-radius: 20px;
     -moz-transition: all 0.35s ease-in-out;
@@ -46,7 +58,7 @@ body {
 
 .btn-gen:hover {
     background-color: #E55300;
-    color:#fafafa;
+    color: #fafafa;
 }
 
 .btn>a {
@@ -249,7 +261,7 @@ a:hover {
     font-weight: 600;
     word-spacing: 4px;
     font-size: 28px;
-    
+
 }
 
 .bio .btn-gen {
@@ -296,6 +308,7 @@ h2 {
 
 .box-heading,
 .location {
+
     font-size: 28px;
     letter-spacing: 3px;
     font-family: Exo, sans-serif;
@@ -324,25 +337,77 @@ h2 {
 }
 
 /*------------------------------------------------------------------------Form*/
-.form-styling{
-    width:70%;
+
+.form-styling {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.form-heading {
+    font-family: exo, sans-serif;
+    font-size: 25px;
+    color: #545454;
+}
+
+.form-heading-small {
+    color: #8f8f8f;
+}
+
+form .btn-gen {
+    width: 80px;
+}
+
+/*---------------------------------------------------------------------About*/
+
+.box-band {
     margin:20px auto;
 }
 
-.form-heading{
-    font-family: exo,sans-serif;
-    font-size: 25px;
-    color:#545454;
+
+.band-pic{
+    background: url(/assets/images/band-pic.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+    padding-top: 56.25%;
+    
 }
 
-.form-heading-small{
-    color:#8f8f8f;
+h4.role {
+    font-family: roboto, sans-serif;
+    color: #0284af;
 }
 
-form .btn-gen{
-    width:80px;
+.sub-one{
+    background: url(/assets/images/band-members/dj.jpg) no-repeat;
+    padding-top: 66%;
+    background-size: cover;
+
 }
 
+.sub-two{
+    background: url(/assets/images/band-members/md.jpg) no-repeat;
+    padding-top: 66%;
+    background-size: cover;
+
+}
+
+.sub-three{
+    background: url(/assets/images/band-members/mn.jpg) no-repeat;
+    padding-top: 66%;
+    background-size: cover;
+}
+
+.sub-four{
+    background: url(/assets/images/band-members/pt.jpg) no-repeat;
+        padding-top: 66%;
+    background-size: cover;
+
+}
 /*---------------------------------------------------------------------Footer*/
 
 .footer-style {
@@ -439,7 +504,7 @@ form .btn-gen{
     .bio .btn-gen {
         display: inline-block;
     }
-
+   
 }
 
 
