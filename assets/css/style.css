@@ -17,11 +17,27 @@ body {
     margin: 0;
 }
 
+.sub-section {
+    margin-bottom: 40px;
+    margin-top:20px;
+}
+
+.section-heading {
+    color: #545454;
+    padding: 5px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: exo;
+    font-weight: 600;
+    word-spacing: 4px;
+    font-size: 28px;
+}
+
 .box {
     background-color: rgba(143, 143, 143, 0.2);
     width: 100%;
     height: 200px;
-    margin: 20px 0;
+    margin: 0 auto;
     position: relative;
     display: flex;
     align-items: center;
@@ -71,6 +87,9 @@ a:hover {
     color: #fafafa;
 }
 
+.thumbnail{
+    border:none;
+}
 
 /*------------------------------------------------------------------Navigation*/
 
@@ -279,33 +298,6 @@ h2 {
     font-family: Roboto, sans-serif;
 }
 
-.events {
-    margin-bottom: 40px;
-}
-
-.events-heading {
-    color: #545454;
-    padding: 5px;
-    letter-spacing: 1px;
-    text-align: center;
-    font-family: exo;
-    font-weight: 600;
-    word-spacing: 4px;
-    font-size: 28px;
-}
-
-.box {
-    background-color: rgba(143, 143, 143, 0.2);
-    width: 100%;
-    height: 200px;
-    margin: 20px 0;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-}
-
 .box-heading,
 .location {
 
@@ -377,7 +369,7 @@ form .btn-gen {
     
 }
 
-h4.role {
+h4.sub-heading {
     font-family: roboto, sans-serif;
     color: #0284af;
 }
