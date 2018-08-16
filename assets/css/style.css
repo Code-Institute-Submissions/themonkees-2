@@ -27,7 +27,7 @@ body {
     padding: 5px;
     letter-spacing: 1px;
     text-align: center;
-    font-family: exo;
+    font-family: "exo", sans-serif;
     font-weight: 600;
     word-spacing: 4px;
     font-size: 28px;
@@ -324,7 +324,7 @@ h2 {
     padding: 5px;
     font-size: 25px;
     margin: 20px;
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .box-heading,
@@ -332,9 +332,10 @@ h2 {
 
     font-size: 28px;
     letter-spacing: 3px;
-    font-family: Exo, sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 600;
     color: #545454;
+    display:block;
 }
 
 .city-container {
@@ -408,11 +409,6 @@ form .btn-gen {
 
 /*---------------------------------------------------------------------About*/
 
-.box-band {
-    margin:20px auto;
-}
-
-
 .band-pic{
     background: url(/assets/images/band-pic.jpg);
     background-size: cover;
@@ -422,41 +418,21 @@ form .btn-gen {
     width: 100%;
     position: relative;
     margin-top: 20px;
-    padding-top: 56.25%;
-    
+    padding-bottom: 56.25%;
 }
 
-h4.sub-heading {
-    font-family: roboto, sans-serif;
-    color: #0284af;
+.sub-section-box{
+    padding:15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-.sub-one{
-    background: url(/assets/images/band-members/dj.jpg) no-repeat;
-    padding-top: 66%;
-    background-size: cover;
-
+.bandmember{
+    width:70%;
+    height: 70%;
 }
 
-.sub-two{
-    background: url(/assets/images/band-members/md.jpg) no-repeat;
-    padding-top: 66%;
-    background-size: cover;
-
-}
-
-.sub-three{
-    background: url(/assets/images/band-members/mn.jpg) no-repeat;
-    padding-top: 66%;
-    background-size: cover;
-}
-
-.sub-four{
-    background: url(/assets/images/band-members/pt.jpg) no-repeat;
-        padding-top: 66%;
-    background-size: cover;
-
-}
 /*---------------------------------------------------------------------Footer*/
 
 .footer-style {
