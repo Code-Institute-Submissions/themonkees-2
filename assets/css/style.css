@@ -19,7 +19,7 @@ body {
 
 .sub-section {
     margin-bottom: 40px;
-    margin-top:20px;
+    margin-top: 20px;
 }
 
 .section-heading {
@@ -87,15 +87,15 @@ a:hover {
     color: #fafafa;
 }
 
-.thumbnail{
-    border:none;
+.thumbnail {
+    border: none;
 }
 
-audio{
-    width:100%;
-    margin-top:30px;
+audio {
+    width: 100%;
+    margin-top: 30px;
     display: block;
-    border-radius:0px;
+    border-radius: 0px;
 }
 
 /*------------------------------------------------------------------Navigation*/
@@ -155,9 +155,8 @@ audio{
     border-color: transparent;
 }
 
-.nav.social-links>li>a
-{
-    padding:12px 5px;
+.nav.social-links>li>a {
+    padding: 12px 5px;
 }
 
 .nav.social-links>li>a>i:hover {
@@ -178,7 +177,7 @@ audio{
 }
 
 .navbar-default .navbar-nav>.open>a,
-.navbar-default .navbar-nav>.open>a:hover{
+.navbar-default .navbar-nav>.open>a:hover {
     color: #fafafa;
     background-color: #ffbe7a;
     -moz-transition: all 0.35s ease-in-out;
@@ -210,7 +209,7 @@ audio{
     -moz-background-size: cover;
     -o-background-size: cover;
     position: relative;
-    padding-bottom:56.25%;
+    padding-bottom: 56.25%;
 }
 
 .opaque-overlay {
@@ -335,7 +334,7 @@ h2 {
     font-family: "Exo", sans-serif;
     font-weight: 600;
     color: #545454;
-    display:block;
+    display: block;
 }
 
 .city-container {
@@ -359,13 +358,14 @@ h2 {
 }
 
 /*-----------------------------------------------------------------------Audio*/
-.cover img{
+
+.cover img {
     width: 100%;
     margin-top: 15px;
 }
 
-.record{
-    padding:15px;
+.record {
+    padding: 15px;
     background-color: #f1f3f4;
     margin-bottom: 15px;
     position: relative;
@@ -375,7 +375,7 @@ h2 {
 }
 
 
-.record h3{
+.record h3 {
     color: #545454;
     text-align: center;
     font-weight: 400;
@@ -383,9 +383,10 @@ h2 {
     font-family: "Exo", sans-serif;
 }
 
-.record hr{
+.record hr {
     border-color: #fff
 }
+
 /*------------------------------------------------------------------------Form*/
 
 .form-styling {
@@ -409,7 +410,7 @@ form .btn-gen {
 
 /*---------------------------------------------------------------------About*/
 
-.band-pic{
+.band-pic {
     background: url(/assets/images/band-pic.jpg);
     background-size: cover;
     -webkit-background-size: cover;
@@ -421,17 +422,38 @@ form .btn-gen {
     padding-bottom: 56.25%;
 }
 
-.sub-section-box{
-    padding:15px;
+.sub-section-box {
+    padding: 15px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.bandmember{
-    width:70%;
+.bandmember {
+    width: 70%;
     height: 70%;
+    filter: grayscale(50%);
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
+
+.bandmember:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
+    
+}
+
+.bandmember-details {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 0.9;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    color: #545454;
+}
+
 
 /*---------------------------------------------------------------------Footer*/
 
@@ -459,8 +481,9 @@ form .btn-gen {
     list-style-type: none;
     padding-left: 0;
 }
-.navigate li:hover{
-    color:#FC860D;
+
+.navigate li:hover {
+    color: #FC860D;
     cursor: pointer;
 }
 
@@ -518,7 +541,7 @@ form .btn-gen {
         padding-top: 56.25%;
     }
     .bio-h1,
-    .record h3{
+    .record h3 {
         text-align: left;
         margin-left: 20px;
     }
@@ -534,7 +557,7 @@ form .btn-gen {
     .bio .btn-gen {
         display: inline-block;
     }
-   
+
 }
 
 
