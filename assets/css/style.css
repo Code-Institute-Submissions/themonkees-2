@@ -37,7 +37,9 @@ body {
     background-color: rgba(143, 143, 143, 0.2);
     width: 100%;
     height: 200px;
-    margin: 0 auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 15px;
     position: relative;
     display: flex;
     align-items: center;
@@ -201,6 +203,13 @@ audio {
 
 /*---------------------------------------------------------------------Header*/
 
+.carousel-inner img {
+    width: 100%; 
+    margin: auto;
+    filter: grayscale(50%);
+    
+}
+
 .banner {
     background: url(../images/band.jpg) no-repeat;
     height: 60vh;
@@ -223,15 +232,6 @@ audio {
 
 
 /*---------------------------------------------------------------------Alert*/
-
-.alert-container {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
 
 .alert {
     padding: 10px 10px;
@@ -453,8 +453,6 @@ form .btn-gen {
     margin-top: 10px;
     color: #545454;
 }
-
-
 /*---------------------------------------------------------------------Footer*/
 
 .footer-style {

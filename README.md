@@ -30,15 +30,16 @@ Links to the wireframes:
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
 ### Existing Features
-* Feature 1 - Users can navigate through the site using the Navigation Bar
-* Feature 2 - Access to social links throug social media icons in the header and footer of the page
-* Feature 3 - Music - Audio section contains embeded audio files allow users to listen to some of the band's audio recordings
-* Feature 4 - Music - Video section contains embeded video files allow users to watch a video clip
-* Feature 5 - Contact section has a form that allows users to reach out to the band 
-* Feature 6 - Navigation bar collapses into a burger button when displayed on smaller devices
-* Feature 7 - "Reach Out" button in the Callout Sections toggles a module contating the contact form for a fast way
-                to send a message to the band.
-
+1. Users can navigate through the site using the Navigation Bar
+2. Access to social links throug social media icons in the header and footer of the page
+3. Music - Audio section contains embeded audio files allow users to listen to some of the band's audio recordings
+4. Music - Video section contains embeded video files allow users to watch a video clip
+5. Contact section has a form that allows users to reach out to the band 
+6. Navigation bar collapses into a burger button when displayed on smaller devices
+7. "Reach Out" button in the Callout Sections toggles a modal contaning the contact form for a fast way to send a message to the band.
+8. By clcking on the photos of band member additional information is desplayed
+9. Footer has a Navigate section that allows to browse through the website when the users reaches the bottom of the page
+ 
 ### Features Left to Implement
 Implementing an API in order to make the forms functional. 
 
