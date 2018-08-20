@@ -12,7 +12,7 @@
 </head>
 
 <body>
-	<!---------------------------------------------------------------- Header--> 
+	<!---------------------------------------------------------------- Header-->
 	<header class="container-fluid">
 		<div class="row">
 			<div id="header" class="carousel slide" data-ride="carousel">
@@ -25,13 +25,13 @@
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
-						<img src="assets/images/band.jpg" alt="Concert">
+						<img src="assets/images/crowd-banner.jpg" alt="Concert">
 					</div>
 					<div class="item">
-						<img src="assets/images/live-music.jpg" alt="Event">
+						<img src="assets/images/iphone-banner.jpg" alt="Event">
 					</div>
 					<div class="item">
-						<img src="assets/images/audience.jpg" alt="Audience">
+						<img src="assets/images/stadium-banner.jpg" alt="Audience">
 					</div>
 				</div>
 				<!-- Controls -->
@@ -46,11 +46,11 @@
 			</div>
 		</div>
 	</header>
-    <!----------------------------------------------------------------- & Nav-->
+	<!----------------------------------------------------------------- & Nav-->
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html">The Band</a>
+				<a class="navbar-brand" href="index.html">The Monkees</a>
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
 			        <span class="sr-only">Toggle navigation</span>
 			        <span class="icon-bar"></span>
@@ -60,16 +60,15 @@
 			</div>
 			<div class="collapse navbar-collapse" id="navbar">
 				<ul class="nav navbar-nav">
-					<li><a href="/">Home</a></li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Music <span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="#">Audio</a></li>
-							<li><a href="#">Video</a></li>
+							<li><a href="audio.html">Audio</a></li>
+							<li><a href="video.html">Video</a></li>
 						</ul>
 					</li>
-					<li><a href="/">Albums</a></li>
-					<li><a href="/">About</a></li>
+					<li><a href="albums.html">Albums</a></li>
+					<li><a href="about.html">About</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right social-links hidden-xs">
@@ -84,12 +83,12 @@
 	<!----------------------------------------------------------------- Alert-->
 	<div class="container-fluid">
 		<div class="row">
-			
-					<div class="alert alert-warning text-center">
-						<span class="alert-callout"> Organising an Event? </span>
-						<p>We would be delighted to perform at your special occasion.</p>
-						<button type="button" class="btn btn-primary btn-lg btn-gen btn-callout" data-toggle="modal" data-target="#myModal">Get in touch</button>
-					</div>
+
+			<div class="alert alert-warning text-center">
+				<span class="alert-callout"> Organising an Event? </span>
+				<p>We would be delighted to perform at your special occasion.</p>
+				<button type="button" class="btn btn-lg btn-gen" data-toggle="modal" data-target="#myModal">Get in touch</button>
+			</div>
 		</div>
 	</div>
 	<!----------------------------------------------------------------- Modal-->
@@ -98,7 +97,7 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-					<h4 class="modal-title" id="gridSystemModalLabel">Drop us a note </h4>
+					<h4 class="modal-title" id="gridSystemModalLabel">Drop Us a Note</h4>
 				</div>
 				<div class="modal-body">
 					<!---------------------------------------------------Form-->
@@ -118,7 +117,7 @@
 							</div>
 							<div class="form-group">
 								<label class="sr-only" for="message">Message</label>
-								<textarea rows="6" name="message" class="form-control" id="message" placeholder="Please write your enquire here" /required></textarea>
+								<textarea rows="6" name="message" class="form-control" id="message" placeholder="Please specify relevant details like date and location" /required></textarea>
 							</div>
 							<button type="submit" class="btn btn-gen center-block">Send</button>
 						</form>
@@ -133,22 +132,18 @@
 		<!----------------------------------------------------------Short Bio-->
 		<section class="container-fluid">
 			<div class="row bio">
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 					<div class="row">
 						<h1 class="bio-h1 text-uppercase">Bio</h1>
 					</div>
 					<hr class="divider-small">
-
-
-					<p class="bio-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid consequatur veritatis libero iure impedit eaque facere soluta maxime tenetur saepe autem explicabo sint molestias cumque, magni minus nihil doloribus ducimus repellendus dolore aperiam
-						debitis cupiditate. Fuga dolores ducimus, eos, earum reiciendis, sunt deleniti at vel saepe ipsum, facilis deserunt voluptates?</p>
-
-
-					<button class="btn btn-success btn-gen">
-					<a href="/">Read More</a>
-				</button>
+					<p class="bio-p">Hello Dear Guest, we are <strong class="brand brand-p">The Monkees</strong> and we are happy to see you! Our Band has a long history of perfoming, in fact we have been rocking since <strong>1960's</strong>. We have toured around the world with our
+						concerts and we love our fans...</p>
+						<button class="btn btn-success btn-gen">
+					<a href="about.html" target="_blank"> Continue Reading </a>
+				 </button>
 				</div>
-				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 					<div class="bio-img"></div>
 				</div>
 			</div>
@@ -205,7 +200,7 @@
 	<footer class="container-fluid footer-style">
 		<div class="row">
 			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 footer-sub">
-				<h5 class="footer-heading">The Band</h5>
+				<h5 class="footer-heading brand">The Monkees</h5>
 				<hr class="divider">
 				<p>
 					We have been rocking since 1960s.
@@ -215,11 +210,10 @@
 				<h5 class="footer-heading">Get in touch</h5>
 				<hr class="divider">
 				<ul>
-					<li>Band Records: +555 1234567</li>
+					<li>Bookings: +555 1234567</li>
 					<li>Email: theband@info.com</li>
-					<li>Bookings: +555 4785621</li>
-					<li>Drop Us a Note Here
-						<a href="/">
+					<li>Use the Form on our Website
+						<a href="contact.html" target="_blank">
 							<p class="note-icon glyphicon glyphicon-pencil"></p>
 							</strong>
 						</a>
@@ -230,10 +224,10 @@
 				<h5 class="footer-heading">Navigate</h5>
 				<hr class="divider">
 				<ul class="navigate">
-					<li><a href="/"></a>About</li>
-					<li><a href="/"></a>Audio</li>
-					<li><a href="/"></a>Video</li>
-					<li><a href="/"></a>Albums</li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="audio.html">Audio</a></li>
+					<li><a href="video.html">Video</a></li>
+					<li><a href="albums.html">Albums</a></li>
 				</ul>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 footer-sub">
