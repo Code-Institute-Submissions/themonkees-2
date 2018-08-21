@@ -51,12 +51,14 @@ as it normally would toggle a modal with the Form, hence it is redundand.
 5. Contact section has a form that allows users to reach out to the band 
 6. Navigation bar collapses into a burger button when displayed on smaller devices
 7. "Reach Out" button in the Callout Sections toggles a modal contaning the contact form for a fast way to send a message to the band.
+8. Included hidden labels for every input in the Form in order to make it posibile for screen readers to process. 
 8. By hovering over the photos of a band member additional information is desplayed
 9. Footer has a Navigate section that allows to browse through the website when the users reaches the bottom of the page
  
 ### Other possible Features 
 
-Implementing an API in order to make the forms functional. 
+Implementing an API in order to make the forms functional 
+Adding "back to top" element for mobile devices
 
 
 ## Technologies Used
@@ -94,6 +96,10 @@ Check that on hover the image becomes more saturated and additional information 
 Adaptability to different viewport sizes:
 Checked how each page is displayed on different devices using Chrome tools
 
+Audio and Video
+Checked that the audio and video files are played correctly. Not played automatically when the page opens and don't go into a loop.
+
+After deployment the images weren't displayed correctly due to the wrong directory path, was an absolute one, changed it to relative
 
 ## Deployment
 
@@ -101,8 +107,11 @@ Deployed using GitHub Pages
 
 ## Media
 The photos used in this site were obtained from:
-* [Pxhere](https://pxhere.com/)
+* [pxhere.com](https://pxhere.com/) Images are free of copyright, can be used or modified for any purposes
 * GitHub Repository provided by Code Institute as part of the "Fullstack Web Development Course"
 
 The audio and video files were obtained from:
 * GitHub Repository provided by Code Institute as part of the "Fullstack Web Development Course"
+
+Text used in the About page obtained from:
+* [Monkee's Wikipedia Page](https://en.wikipedia.org/wiki/The_Monkees)
