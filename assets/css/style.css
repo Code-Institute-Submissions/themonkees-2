@@ -152,16 +152,17 @@ audio {
     border-color: transparent;
 }
 
-.navbar-default .navbar-toggle:hover {
-    background-color: transparent;
-}
-
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fafafa;
 }
 
 .navbar-default .navbar-toggle:hover {
     background-color: #FC860D;
+}
+
+.navbar-default .navbar-toggle:acitive,
+.navbar-default .navbar-toggle:focus {
+    background-color: transparent;
 }
 
 .dropdown-menu>li>a,
@@ -189,7 +190,6 @@ audio {
     color: #FC860D;
 }
 
-.navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>.open>a,
 .navbar-default .navbar-nav>.open>a:focus,
 .navbar-default .navbar-nav>.open>a:hover {
